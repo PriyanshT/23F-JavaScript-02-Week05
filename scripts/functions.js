@@ -45,6 +45,13 @@ var array1 = ["apple", "banana", "grapes"];
 console.log(array1.join());
 console.log(array1.join(" - "));
 
+// return
+function addNumbersThree(x, y) {
+    return x + y;
+}
+var total = addNumbersThree(10, 100);
+console.log(total);
+
 // Next, open up scope.html and we will look at how the accessibility of variables depends on where they are defined/initialized.
 
 // This page inspired by and adapted from https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions
