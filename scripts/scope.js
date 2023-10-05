@@ -4,10 +4,14 @@ var x = 1;
 // STEP 2: Build a function that accepts no parameters, and also declares and intializes a variable within it (y = 2)
 function fun1() {
     var y = 2;
+    // output(y);
+    // return y;
+    output(z);
 }
 // STEP 3: Build another function that also accepts no parameters, and also declares and intializes a variable within it (z = 3)
 function fun2() {
     var z = 3;
+    output(z);
 }
 
 // {
@@ -60,8 +64,15 @@ Bear in mind that you can call a function from within another
 function at any time, from anywhere in your script */
 
 // STEP 7a: Build a primary function that declares and initializes a variable, then calls up a subfunction
+function main() {
+    var mainVar = 5;
+    subFun(mainVar);
+}
 
 // STEP 7b: Create a sub-function that logs the value of myValue to the console
+function subFun(xyz) {
+    output(xyz);
+}
 
 // STEP 7c: Call up mainFunction() in your console directly after refreshing the page in the browser
 
